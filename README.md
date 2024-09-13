@@ -90,7 +90,9 @@ log.Fatal("This is a fatal message")
 You can customize the logger by modifying the following configurations in the init() function:
 
 • **Log Formatter**: Customize the log format (e.g., plain text or JSON).
+
 • **Log Level**: Set the minimum log level.
+
 • **Output Writers**: Specify where the logs should be written (e.g., files, stdout).
 
 **Changing the Log Level**
